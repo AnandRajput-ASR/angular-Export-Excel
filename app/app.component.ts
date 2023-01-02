@@ -34,7 +34,7 @@ export class AppComponent {
       comparerType: 'list',
       allowNulls: true,
       type: 'reject',
-      from: 'Sheet2!A$2:B$' + this.data1.length,
+      from: 'Sheet2!A$2:A$' + this.data1.length,
     },
   };
 
